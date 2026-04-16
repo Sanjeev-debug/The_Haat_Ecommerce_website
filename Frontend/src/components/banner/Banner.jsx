@@ -3,7 +3,7 @@ import React from 'react'
 import one from '../../image/banner/1.jpg'
 import two from '../../image/banner/2.jpg'
 import three from '../../image/banner/3.jpg'
-import './banner.css'
+import './Banner.css'
 
 const Banner = () => {
   return (
