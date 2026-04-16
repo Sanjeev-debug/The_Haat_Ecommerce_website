@@ -1,0 +1,34 @@
+.ListingPage{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: rgb(86, 250, 171);
+    border-radius: 20px;
+}
+.ListingPage h1{
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ListingPage ul{
+    display: flex;
+    flex-direction: row;
+}
+.ListingPage li{
+    list-style: none;
+    padding-right: 20px;
+   
+}
+.ListingPage li .Link{
+    text-decoration: none;
+    color: rgb(143, 145, 145);
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+}
+.ListingPage li .Link:hover{
+    color: rgb(3, 101, 41);
+
+}
+
+
+

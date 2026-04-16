@@ -1,0 +1,28 @@
+.productDetailToDashboardLink{
+    text-decoration: none !important;
+    color: black    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.productDetailToDashboardLink p{
+    font-size: 19px;
+}
+.dashboardsmallSlider .slick-slide{
+    padding-right:10px ;
+}
+.dashboardProductDetailInfo h4{
+    color: rgb(96, 98, 98);
+    margin-bottom: 40px;
+}
+.dashboardProductDetailInfo  svg{
+    font-size: 30px !important;
+    color: rgb(96, 98, 98);
+    margin-bottom: 24px;
+  
+}
+.dashboardProductDetailInfo .button{
+    color:rgb(96, 98, 98);
+    height: 20px;
+}

@@ -1,0 +1,286 @@
+
+.detailMainTitle{
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(6, 207, 127);
+    border-radius: 20px;
+}
+.detailMainTitle h1{
+    color: rgb(28, 63, 105);
+}
+
+.innerZoom{
+    /* width: 80%; */
+    border: 1px solid rgb(195, 192, 192);
+    border-radius: 10px;
+    overflow: hidden;
+    
+   
+  
+}
+.innerZoom img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+     
+  }
+
+  .zoomImage {
+    max-width: 50%;
+    height: 550px;
+  }
+.detailInfo .saleOff{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(243, 194, 194);
+    color: rgb(227, 18, 95);
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+}
+.detailInfo .title{
+    font-size: 50px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.detailInfo .rating{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.detailInfo .review{
+    color: rgb(116, 121, 121);
+    margin-left: 2px;
+}
+.detailPrice{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.detailPrice h1{
+    font-size: 70px;
+    color: rgb(0, 255, 123);
+}
+.detailPrice div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5px;
+
+}
+.detailPrice p{
+    color: rgb(235, 168, 12);
+}
+.detailPrice h2{
+    color: rgb(173, 178, 178);
+}
+.lorem{
+    margin-top: 40px;
+    color: rgb(132, 137, 137);
+}
+.detailSlider{
+    margin-top: 20px;
+}
+.detailSlider .slider{
+    width: 100px  !important  ;
+}
+.detailSlider  .slick-current img{
+   
+    border-radius: 5px ;
+}
+.detailSlider  .slick-slide :hover img{
+    border: 1px solid red;
+}
+.detailSlider  .slick-arrow{
+    top: 120% !important;
+}
+.detailWeight{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.detailWeight ul{
+    display: flex;
+   
+}
+.detailWeight li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+.detailWeight h3{
+    color: rgb(132, 137, 137);
+   
+}
+
+.detailWeight .active{
+    border-radius: 5px;
+    background-color: rgb(6, 171, 100);
+    color: white;
+    cursor: pointer;
+    
+}
+.detailWeight li:hover{
+    border-radius: 5px;
+    background-color: rgb(6, 171, 100);
+    color: white; 
+    cursor: pointer;
+}
+.detailCart{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.detailCart .counter{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(6, 171, 100);
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.detailCart .counter input{
+    border: 0px solid;
+   outline: none;
+   forced-color-adjust: none;
+    width: 20px;
+    font-size: 20px;
+    
+}
+.detailCart .counter .arrows{
+    color: rgb(6, 171, 100);
+    cursor: pointer;
+}
+.detailCart .addCart{
+    background-color: rgb(6, 171, 100) !important;
+    color: white;
+}
+.detailCart .button{
+    color: rgb(131, 135, 135);
+}
+.detailCart .button:hover{
+    background-color: rgb(6, 171, 100) !important;
+    color: white;
+}
+.mfg{
+     display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 80%;
+}
+.mfg span{
+    color: rgb(6, 171, 100);
+}
+.mfg  p{
+    padding: 10px;
+}
+.detailExtrainfo{
+    border: 1px solid rgb(191, 190, 192);
+    border-radius: 10px;
+    padding: 50px;
+}
+.detailExtrainfo .button{
+    color: rgb(126, 132, 132);
+    text-transform: capitalize;
+    font-weight: 700;
+    border: 1px solid rgb(160, 159, 162);
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: all .3s ease-in-out;
+}
+.detailExtrainfo .button .link{
+    text-decoration: none;
+  
+}
+
+.detailExtrainfo .button:hover{
+    color:rgb(6, 171, 100);
+    border: 1px solid rgb(6, 171, 100);
+    transform: translateY(-5px);
+}
+.detailExtrainfo .active{
+    color:rgb(6, 171, 100);
+    border: 1px solid rgb(6, 171, 100);  
+}
+
+.detailDescription{
+    margin-top: 50px;
+}
+.detailDescription hr{
+    margin-top: 10px;
+}
+.detailDescription h2{
+    color: rgb(13, 20, 42);
+    opacity: .9;
+    margin-top: 40px;
+}
+.detailDescription p{
+    color: rgb(102, 107, 107);
+    padding: 10px;
+    font-size:17px ;
+    
+}
+.additionalinfo{
+    margin-top: 50px;
+}
+.additionalinfo .table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.additionalinfo .table th,.additionalinfo .table td{
+    border: 1px solid;
+    padding: 20px;
+    text-align: left;
+    color: rgb(102, 107, 107);
+}
+.detailExtrainfo .review{
+    margin-top: 50px    ;
+    
+}
+.detailExtrainfo .reviewInfo{
+    
+    
+    
+    border: 1px solid rgb(143, 143, 138);
+    border-radius: 10px;
+   
+    margin-top: 20px;
+}
+.detailExtrainfo .reviewInfo .reviewDate{
+    
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
+.reviewName{
+    color: rgb(12, 223, 89);
+}
+.reviewDate p{
+  color:rgb(102, 107, 107);
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.reviewDate .rating{
+    font-size: 15px;
+}
+.reviewLorem{
+    color:rgb(70, 72, 72);
+}
+.review .addReview{
+    margin-top: 50px;
+}
+.review .addReview h2{
+    margin-bottom: 30px;
+}
+.review .addReview textarea,.review .addReview input{
+    border: 1px solid rgb(148, 144, 144);
+    outline: none;
+}

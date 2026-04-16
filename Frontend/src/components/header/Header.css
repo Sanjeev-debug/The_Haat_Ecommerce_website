@@ -1,0 +1,20 @@
+.logo{
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    padding: 0px;
+   
+}
+.accountdrop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px ;
+    padding: 5px;
+   
+}
+.accountdrop:hover{
+    background-color: rgb(15, 233, 131);
+   
+    
+}

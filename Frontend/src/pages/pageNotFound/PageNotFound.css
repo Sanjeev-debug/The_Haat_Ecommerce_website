@@ -1,0 +1,31 @@
+.pageNotFoundMain{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.pageNotFound{
+    background-size: 100% 100%;
+   
+    
+}
+.pageNotFoundMain h1{
+    font-size: 100px;
+    opacity: 0.8;
+}
+.pageNotFoundMain p{
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.pageNotFoundMain .button{
+    background-color: rgb(8, 148, 61) !important;
+    margin-top: 40px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.pageNotFoundMain .button:hover{
+    background-color: rgb(233, 161, 26) !important;
+}

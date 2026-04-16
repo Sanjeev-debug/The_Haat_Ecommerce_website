@@ -1,0 +1,24 @@
+
+img{
+    width: 100%;
+    height: 260px;
+    object-fit: inherit;
+    
+}
+.banner{
+    height: 260px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+  
+   
+    
+}
+.banner img{
+    transition: all .3s ease-in-out;
+}
+.banner img:hover {
+    transform: scale(1.1);
+   
+   
+}

@@ -1,0 +1,9 @@
+
+.dashboardSidebar{
+   transition: all .3s ease-in-out;
+}
+.dashboardSidebar .sidebarButton{
+   color: rgb(154, 3, 3);
+   border-radius: 5px ;
+  
+}

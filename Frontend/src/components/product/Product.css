@@ -1,0 +1,77 @@
+.popularProduct{
+    
+    border: 1px solid   rgb(209, 205, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.popularMain{
+    position: relative;
+}
+.popularMain .cornerTitle{
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    width: 80px;
+    height: 40px;
+    z-index: 15;
+    border-radius: 25px 0px 25px 0px;
+}
+.productInfo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+.product .productPrice{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.product .productPrice h4{
+    color: gray;
+    margin-top: 5px;
+    
+}
+.product .productPrice h2{
+    color: #24e276;
+    
+}
+.product Button svg{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.popularProduct p{
+   
+    opacity: 0.5;
+}
+.popularProduct h3{
+    margin-top: 5px;
+}
+.rating  svg {
+  font-size: 15px;
+ 
+}
+
+.popularProduct:hover{
+    box-shadow:  0 3px 6px rgba(0,0,0, 0.36),0 3px 6px rgba(0,0,0, 0.30);
+}
+.popularProduct img {
+transition: all .3s ease-in-out;
+
+
+}
+.popularProduct img:hover{
+transform: scale(1.1);
+}
+
+.popularProduct  .sale {background-color: #e6d840 ;}
+.popularProduct  .hot {background-color: #9ded48;}
+.popularProduct  .new {background-color: #e269f2;}
+.popularProduct  .brand {background-color: #60ef9e;}

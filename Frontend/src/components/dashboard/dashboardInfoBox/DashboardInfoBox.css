@@ -1,0 +1,25 @@
+.dashboardInfoBox{
+    background-image: linear-gradient(to right, #140390 , #3e47f1);
+    height: 220px;
+    border-radius: 10px ;
+    position: relative;
+    z-index: 10;
+    
+}
+.dashboardInfoBox .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+   
+    text-align: center;
+    line-height: 60px;
+    opacity: .3;
+}
+.dashboardInfoBox .chart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 200px;
+    opacity: .5;
+    z-index: -1;
+}

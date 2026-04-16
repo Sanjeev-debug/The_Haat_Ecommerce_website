@@ -1,0 +1,107 @@
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
+
+
+
+.homeSliderMain{
+    
+    border-radius: 30px; 
+    overflow: hidden    ;
+    position: relative;
+    height: 500px;
+   
+    
+}
+.sliderBanner{
+    /* border-radius: 30px; */
+    overflow: hidden ;
+    position: relative;
+}
+.slick-arrow{
+    position: absolute;
+    top:47%;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    z-index: 200;
+    box-shadow: 0 3px 6px rgba(0,0,0, 0.16),0 3px 6px rgba(0,0,0, 0.23);
+} 
+.slick-arrow.slick-next{
+    right: 2%;
+    
+}
+.slick-next:before{
+   content: "\f105" !important ;
+   font-family: FontAwesome !important  ;
+   font-size: 30px;
+   color: black;
+}
+.slick-arrow.slick-prev{
+    left: 2%;
+}
+.slick-prev::before{
+    content: "\f104" !important ;
+    font-family: FontAwesome !important  ;
+    font-size: 30px;  
+    color: black;
+}
+.slick-arrow:hover{background-color: rgb(49, 242, 129);}
+.slick-arrow:hover::before{color: rgb(255, 255, 255);}
+
+.slick-dots{
+    position:absolute;
+    
+    bottom: 10%;
+   
+}
+.slick-dots  button::before{
+    
+    font-size: 15px !important;
+    
+    
+}
+.slick-active button::before{
+    color: #13e024 !important ;
+}
+
+
+.sliderInput{
+    position: relative;
+    top: -200px;
+    left: 10%;
+    width: 30%;
+    height: 70px;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    
+}
+.sliderInput input{
+    width: 100%;
+    height: 100%;
+    border-radius:50px ;
+    border: 0;
+    outline: none  ;
+    padding-left:50px;
+    padding-right:40%;
+    font-size: 1rem ;
+}
+.sliderInput button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 30px;
+}
+.sliderInput svg{
+    position: absolute;
+    top: 18px  ;
+    left: 18px ;
+    opacity: .75;
+    transform: rotate(-25deg);
+    
+}

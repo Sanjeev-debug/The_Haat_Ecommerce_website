@@ -1,0 +1,69 @@
+.SideBarCard h1{
+    position: relative;
+}
+.SideBarCard h1::after{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    content: '';
+    width: 100%;
+    border: 1px solid rgb(180, 173, 173);
+}
+.SideBarCard h1::before{
+    content: '';
+    position: absolute;
+    top: 38px;
+   
+    width: 30%;
+    border: 2px solid rgb(48, 204, 157);
+    z-index: 10;
+}
+
+.sidebarCardCategory:hover{
+    border:1px solid aqua;
+    box-shadow: 0px 0px 5px 0px ;
+    cursor: pointer;
+}
+.Sidebar2Price{
+    color: rgb(46, 158, 70);
+    font-weight: 700;
+}
+.sidebar2prices p{
+        color: rgb(138, 143, 143);
+}
+.sidebar2Filter{
+    margin-top: 10px;
+}
+.sidebar2Filter h4{
+    font-weight: 700;
+}
+.sidebar2Filter ul{
+    width: 100%;
+    max-height: 135px;
+    overflow-y: auto;
+}
+.sidebar2Filter ul::-webkit-scrollbar{width: 7px !important;}
+.sidebar2Filter ul::-webkit-scrollbar-thumb{background-color: rgb(206, 205, 203) !important;}
+.sidebar2Filter li{
+    list-style: none;
+    color:rgb(138, 143, 143);
+    
+    
+}
+ .button1 {
+    width: 100px !important;
+    background-color: rgb(12, 155, 57) !important;
+    color: white !important;
+    transition: all .3s ease-in-out !important;
+    text-transform: capitalize !important;
+    
+}
+
+ .button1:hover{
+ background-color: rgb(242, 158, 32) !important;
+ width: 120px !important;
+}
+.sidebarMain{
+    position: sticky;
+    top: 200px;
+}

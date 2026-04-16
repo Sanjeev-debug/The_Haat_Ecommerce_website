@@ -1,0 +1,23 @@
+.dashboardHome{
+    overflow-y: scroll;
+    height: 85vh;
+    
+}
+.secundaryColor:hover{
+    background-color: rgb(176, 115, 234) !important;
+    width: 40px;
+    height: 40px;
+}
+.successColor:hover{
+    background-color: rgb(71, 242, 125) !important;
+    width: 40px;
+    height: 40px;
+}
+.errorColor:hover{
+    background-color: rgb(240, 138, 153) !important;
+    width: 40px;
+    height: 40px;
+}
+.dashboardTable .rupee{
+    font-size:15px ;
+}

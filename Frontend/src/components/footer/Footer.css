@@ -1,0 +1,62 @@
+.footerInfoLink{
+    color: rgb(21, 31, 68);
+    
+}
+.footerH2{
+    color:  rgb(21, 31, 68);
+    margin-top: 25px ;
+    margin-bottom: 15px;
+}
+.footerUl{
+    list-style-type: none;
+    
+    
+}
+.footerUl li{
+    padding-top: 12px;
+}
+.footerUl li:hover .Link{
+    padding-left: 10px;
+    color: rgb(60, 239, 69) !important;
+}
+
+.footerUl .Link{
+    text-decoration: none;
+    color: rgb(21, 31, 68);
+   
+    transition: all .3s ease-in-out;
+    
+}
+.footerCopyRightSpan{
+    font-weight: 700;
+    color: #0db368;
+}
+.footerCopyRightP{
+    color: rgb(107, 109, 108);
+   
+}
+.footerCopyRightCalling svg {
+   color:rgb(107, 109, 108);
+   font-size: 35px;
+   margin-right: 10px;
+}
+.footerCopyRightUl{
+    display: flex;
+}
+.footerCopyRightUl li{
+    list-style: none;
+    transition: all .3s ease-in-out;
+    
+}
+.footerCopyRightUl li:hover{
+            transform: translateY(-5px);
+}
+.footerCopyRightUl .Link{
+    color: #0db368;
+    padding: 5px;
+   
+}
+.footerCopyRightUl .Link svg{
+    font-size: 30px;
+  
+}

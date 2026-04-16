@@ -1,0 +1,23 @@
+.cartMain .counter{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(6, 171, 100);
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.cartMain .counter input{
+    border: 0px solid;
+   outline: none;
+   forced-color-adjust: none;
+    width: 20px;
+    font-size: 20px;
+    
+}
+.cartMain .counter .arrows{
+    color: rgb(6, 171, 100);
+    cursor: pointer;
+}

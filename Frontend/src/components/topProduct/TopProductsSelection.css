@@ -1,0 +1,23 @@
+.topProductTitle{
+    position: relative;
+}
+.topProductTitle::after{
+    position: absolute;
+    top: 35px;
+    left: 0;
+    content: '';
+    width: 100%;
+    border: 1px solid rgb(180, 173, 173);
+}
+.topProductTitle::before{
+    content: '';
+    position: absolute;
+    top: 34px;
+   
+    width: 30%;
+    border: 2px solid rgb(60, 240, 102);
+    z-index: 10;
+}
+.topProductTitle{
+    color: rgb(35, 8, 74);
+}

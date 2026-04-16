@@ -1,0 +1,16 @@
+.imageUploadMain{
+    width: 20%;
+    height: 250px;
+    border: 1px solid rgb(171, 170, 170);
+    background-color: rgb(237, 236, 234);
+    border-radius: 5px;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imageUploadMain:hover{
+    background-color: rgb(182, 181, 178);
+}
