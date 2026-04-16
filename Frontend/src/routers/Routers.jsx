@@ -32,7 +32,7 @@ import About from '../pages/about/About'
 import CategoryList from '../components/dashboard/category/CategoryList'
 import CategoryUpload from '../components/dashboard/category/CategoryUpload'
 import DashboardCategoryDetails from '../components/dashboard/category/DashboardCategoryDetails'
-import UserSignIn from '../components/userAccount/userSignIn'
+import UserSignIn from '../components/userAccount/UserSignIn'
 import UserSignUp from '../components/userAccount/UserSignUp'
 
 import CheckOut from '../components/checkout/CheckOut'
