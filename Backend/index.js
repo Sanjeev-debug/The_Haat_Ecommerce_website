@@ -576,7 +576,7 @@ mongoose.connect(CONNECTION_STRING)
 
 
         app.listen(PORT, () => {
-            console.log(`Server is running http://localhost:${PORT}`);
+            console.log(`Server running on port ${PORT}`)
         });
     })
     .catch((err) => {
