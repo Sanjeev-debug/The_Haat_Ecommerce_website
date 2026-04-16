@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Product/Product.css'
+import '../product/Product.css'
 import { Box, Button, Grid2, Link, Rating } from '@mui/material'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { green } from '@mui/material/colors';
