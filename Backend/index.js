@@ -12,7 +12,8 @@ const crypto=require('crypto');
 
 
 require('dotenv').config();
-const { PORT, CONNECTION_STRING,RAZORPAY_KEY_ID,RAZORPAY_KEY_SECRET } = process.env;
+const { PORT=5000, CONNECTION_STRING,RAZORPAY_KEY_ID,RAZORPAY_KEY_SECRET } = process.env;
+const BASE_URL = process.env.BASE_URL || "http://localhost:5000";
 
 
 const { Category } = require('./models/category');
@@ -264,7 +265,7 @@ app.post("/editProduct/:id", upload.array("file", 5), async (req, res) => {
     // console.log(req.params.id)
     // console.log(req.files)
     // console.log(req.body)
-    const imageUrls = await req.files.map(file => `http://localhost:5000/uploads/${file.filename}`);
+    const imageUrls = await req.files.map(file => `${BASE_URL}/uploads/${file.filename}`);
 
     let editProductData = req.body;
     editProductData.files = imageUrls;
@@ -296,7 +297,7 @@ app.post("/editCategory/:id", upload.single("file"), async (req, res) => {
 
 
 
-    const imageUrl = `http://localhost:5000/uploads/${req.file.filename}`;
+    const imageUrl = `${BASE_URL}/uploads/${req.file.filename}`;
     let editCategoryData = req.body;
     editCategoryData.file = imageUrl;
 
@@ -372,7 +373,7 @@ app.post('/uploads', upload.array("file", 5), async (req, res) => {
 
 
 
-    const imageUrls = await req.files.map(file => `http://localhost:5000/uploads/${file.filename}`);
+    const imageUrls = await req.files.map(file => `${BASE_URL}/uploads/${file.filename}`);
 
     let productData = req.body;
     productData.files = imageUrls;
@@ -408,7 +409,7 @@ app.post('/uploadCategory', upload.single("file"), async (req, res) => {
 
 
 
-    const imageUrl = `http://localhost:5000/uploads/${req.file.filename}`;
+    const imageUrl = `${BASE_URL}/uploads/${req.file.filename}`;
     let productData = req.body;
     productData.file = imageUrl;
 
