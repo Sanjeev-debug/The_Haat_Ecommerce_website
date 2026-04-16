@@ -1,7 +1,7 @@
 
 import {  useContext, useEffect, useRef, useState } from "react";
 import { createContext } from "react";
-import Watch from '../image/Watch.jpg'
+import Watch from '../image/watch.jpg'
 import NestedImage from '../image/nestedProduct/1.avif'
 import axios from "axios";
 import DashboardCategoryDetails from "../components/dashboard/category/DashboardCategoryDetails";
