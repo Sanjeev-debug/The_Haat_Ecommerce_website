@@ -1,6 +1,6 @@
 
 import React from 'react'
-import './productlist.css'
+import './Productlist.css'
 import { Link } from 'react-router-dom'
 
 import { Box, Button, Grid2, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Typography } from '@mui/material'
