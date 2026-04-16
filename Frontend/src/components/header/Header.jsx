@@ -14,7 +14,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 import The from '../../image/The.png'
 import { green, lightGreen } from '@mui/material/colors';
-import Navbar from './Navbar/Navbar';
+import Navbar from './navbar/Navbar.jsx';
 import { useContextProvider } from '../../contextProvider/ContextProvider';
 import MyAccount from '../myAccount/MyAccount';
 
