@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import { Box, Button, Container, Fade, Grid2, Paper, Typography } from '@mui/material'
 import './Sliders.css'
-import Watch from '../../image/watch.jpg'
+import watch from '../../image/watch.jpg'
 import Sale from '../../image/sale.avif'
 import One from '../../image/1.jpg'
 import { blue, green, grey } from '@mui/material/colors';
@@ -51,7 +51,7 @@ const Sliders = () => {
             </div>
           </div>
           <div >
-            <div className='sliderBanner' style={{ backgroundImage: `url(${Watch})`, width: '100vw', height: 500, backgroundPosition: 'center', backgroundSize: '100%', position: 'relative' }} >
+            <div className='sliderBanner' style={{ backgroundImage: `url(${watch})`, width: '100vw', height: 500, backgroundPosition: 'center', backgroundSize: '100%', position: 'relative' }} >
               <div style={{ position: 'absolute', top: '60px', left: '150px', fontSize: '35px', color: green[500] }} >
                 <h1>Greate Collections</h1>
                 <h1>Big Discount</h1>
