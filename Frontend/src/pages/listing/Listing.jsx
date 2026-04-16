@@ -1,5 +1,5 @@
 import React from 'react'
-import './listing.css'
+import './Listing.css'
 import { Box, Grid2 } from '@mui/material'
 import { Link } from 'react-router'
 import SideBar from '../../components/sideBar/SideBar'
